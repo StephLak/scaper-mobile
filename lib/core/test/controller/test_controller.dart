@@ -90,8 +90,8 @@ class TestController extends GetxController {
             text: "Burgers all the way.", points: 5, nextNodeId: "node8"),
       ],
     ),
-    "node7": DialogNode(
-      id: "node7",
+    "node5": DialogNode(
+      id: "node5",
       text:
           "You're at a bookstore, and someone asks, 'Do you have any book recommendations?'",
       videoAsset: "npc_dialog.mp4",
@@ -106,8 +106,8 @@ class TestController extends GetxController {
             text: "I don’t read much, sorry!", points: 5, nextNodeId: "node9"),
       ],
     ),
-    "node8": DialogNode(
-      id: "node8",
+    "node6": DialogNode(
+      id: "node6",
       text:
           "The person smiles and says, 'Which mystery novel would you recommend first?'",
       videoAsset: "npc_dialog.mp4",
@@ -124,8 +124,8 @@ class TestController extends GetxController {
             nextNodeId: "node12"),
       ],
     ),
-    "node9": DialogNode(
-      id: "node9",
+    "node7": DialogNode(
+      id: "node7",
       text:
           "The person gets excited and says, 'I love Sherlock Holmes too! Which story is your favorite?'",
       videoAsset: "npc_dialog.mp4",
@@ -140,8 +140,8 @@ class TestController extends GetxController {
             text: "A Study in Scarlet!", points: 5, nextNodeId: "node14"),
       ],
     ),
-    "node10": DialogNode(
-      id: "node10",
+    "node8": DialogNode(
+      id: "node8",
       text: "The person asks, 'Any good modern thriller recommendations?'",
       videoAsset: "npc_dialog.mp4",
       videoTimecode: 230,
