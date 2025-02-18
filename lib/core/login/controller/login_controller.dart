@@ -37,7 +37,7 @@ class LoginController extends GetxController {
         } else {
           if (response.data.response!.statusCode == 200) {
             encryptData(key: AppConstants.accessToken, value: response.token);
-            Get.offNamed(AppRoutes.quiz);
+            Get.offNamed(AppRoutes.home);
           }
         }
         loading.value = false;
@@ -47,12 +47,5 @@ class LoginController extends GetxController {
             message: AppStrings.genericErrorMessage.tr, isSuccess: false);
       }
     }
-  }
-
-  @override
-  void onInit() {
-    emailController.text = 'abcd@gmail.com';
-    passwordController.text = 'abcd';
-    super.onInit();
   }
 }

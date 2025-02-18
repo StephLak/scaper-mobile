@@ -46,11 +46,4 @@ class SignupController extends GetxController {
       }
     }
   }
-
-  @override
-  void onInit() {
-    emailController.text = 'abcd@gmail.com';
-    passwordController.text = 'abcd';
-    super.onInit();
-  }
 }
